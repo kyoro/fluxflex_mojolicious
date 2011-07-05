@@ -1,0 +1,4 @@
+Options +FollowSymLinks +ExecCGI
+AddHandler fastcgi-script .fcgi
+RewriteEngine On
+RewriteRule ^(.*)$ dispatch.fcgi [QSA,L]
