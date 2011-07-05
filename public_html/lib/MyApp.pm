@@ -40,5 +40,6 @@ __DATA__
     <h1><%= $title %></h1>
     <h3>Time:<%= $display_time %></h3>
     <p>A next generation web framework for the Perl programming language.</p>
+    <%= link_to hello => begin %>Dispatcher Test Link<% end %>
   </body>
 </html>
